@@ -6,7 +6,7 @@ body{
 .pricecontainer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    height: 400px;
+    height: 499px;
     width: 100%
 }
 
@@ -33,8 +33,8 @@ body{
 }
 .grid-shadow{
     margin: auto;
-    width: 60%;
-    height: 499px;
+    width: 55%;
+    height: 480px;
     border-radius: 10px;
     box-shadow: 0 10px 20px 10px rgba(0,0,0,0.59);
 }
@@ -73,4 +73,30 @@ body{
 #signup:hover{
     background: darkgoldenrod;
     cursor: pointer;
+}
+/*@media(max-width: 720px){
+    .pricecontainer{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: 400px;
+        width: 100%
+    }
+    .griditem1{
+        background-color: white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding: 10px 50px 10px 50px;
+    }
+    .griditem2{
+        background-color: darkcyan;
+        border-bottom-left-radius: 10px;
+        padding: 10px 15% 15% 15%;
+        color: white;
+    }
+    .griditem3{
+        background-color: cadetblue;
+        border-bottom-right-radius: 10px;
+        padding: 10px 15% 15% 15%;
+        line-height: 20px;
+    }
 }
